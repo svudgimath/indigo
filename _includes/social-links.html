@@ -36,4 +36,10 @@
             <i class="fa-regular fa-envelope"></i>
         </a>
     {% endif %}
+
+    {% if site.phone %}
+        <a class="link" data-title="{{ site.phone }}" href="tel:{{ site.phone }}" rel="noopener" alt="anchor link for phone" aria-label="anchor link for phone">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    {% endif %}
 </div>

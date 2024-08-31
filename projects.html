@@ -2,17 +2,83 @@
 layout: page
 title: Projects
 ---
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            {% if post.hidden != true %}
-                <div class="item {% if post.star %}star{% endif %}">
-                    <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                        <h3 class="title">{{ post.title }}</h3>
-                    </a>
-                </div>
-            {% endif %}
-        {% endif %}
-    {% endfor %}
+
+<h2 style="font-family: 'Arial', sans-serif;">PROJECTS</h2>
+
+<section>
+    <ol>
+        <li>
+            <h4 style="font-family: 'Georgia', serif;">
+                <a href="https://github.com/svudgimath/MOVER">Medical Operating Room Vitals & Stay Predictions</a>
+            </h4>
+            <p><b><i>Python, Exploratory Data Analysis, Predictive Models, Statistics</i></b></p>
+            <p style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                Developed a predictive analytics solution for hospital resource management, focusing on patient length of stay predictions. The project reduced data size by 90% and achieved 82% accuracy in forecasting patient outcomes using Gradient Boosted Trees with Bayesian optimization.
+            </p>
+            <ul style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                <li>Achieved a 90% reduction in data size through <b>data cleaning, encoding,</b> and <b>feature selection</b>.</li>
+                <li>Explored healthcare patterns, including gender and age-specific trends in diseases, post-operative complications, and hospital length of stay using <b>visualization and analytics libraries</b> like Plotly, Matplotlib, and Seaborn.</li>
+                <li>Created <b>predictive models</b> for patient length of stay, achieving an 82% accuracy through <b>Gradient Boosted trees with Bayesian hyperparameter optimization</b>, helping hospitals better manage resources and patient flow.</li>
+            </ul>
+        </li>
+
+         <li>
+            <h4 style="font-family: 'Georgia', serif;">
+                <a href="https://github.com/svudgimath/SBALoanApproval">Loan Approval Predictions</a>
+            </h4>
+            <p><b><i> Python, SQL, Exploratory Data Analysis, Machine Learning Models</i></b></p>
+            <p style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                Led a finance-focused loan approval project to predict the likelihood of loan defaults for small and medium-sized businesses. By utilizing Random Forest Classifier and exploratory data analysis, the project reduced the risk of loan defaults by 35% and improved prediction accuracy by 20% compared to Logistic Regression.
+            </p>
+            <ul style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                <li>Performed <b>exploratory data analysis</b> to identify patterns and sectors with higher likelihoods of <b>loan default</b>, informing strategic lending decisions, and conducted a <b>finance</b> focused loan approval project to <b>predict</b> the likelihood of small and medium-sized businesses <b>failing to repay loans</b>, reducing the risk of loan defaults by 35%.</li>
+                <li>Demonstrated the superiority of the Random Forest Classifier over Logistic Regression in predicting loan repayment capability, increasing prediction accuracy by 20%.</li>
+            </ul>
+        </li>
+
+
+        <li>
+            <h4 style="font-family: 'Georgia', serif;">
+                <a href="">Data Engineering and Pizza Sales Analysis</a>
+            </h4>
+            <p><b><i>SQL Server, Azure Blob Storage, Azure Data Factory, PySpark, Databricks, Power BI, KPIs</i></b></p>
+            <p style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                Built ETL pipelines to transfer data from SQL Server to Azure Blob Storage, then fetched it into Databricks for cleaning with PySpark. Stored the cleaned data back in Azure Blob Storage and analyzed it in Power BI, developing dashboard with KPIs to track pizza sales trends over various timeframes.            </p>
+            <ul style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                <li>Developed <b>ETL pipelines in Azure Data Factory</b> to transfer data from <b>SQL Server to Azure Blob Storage</b>, cleaned the data in <b>Databricks using PySpark</b>, and stored the results back in Blob Storage.</li>
+                <li>Analyzed the cleaned data in <b>Power BI and created dashboard with KPIs</b> to track pizza sales trends across various timeframes.</li>
+            </ul>
+        </li>
+
+        <li>
+            <h4 style="font-family: 'Georgia', serif;">
+                <a href="">Airbnb Database Design</a>
+            </h4>
+            <p><b><i>PostgreSQl, Python</i></b></p>
+            <p style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                Designed and optimized an Airbnb database, reducing data redundancy by 70% and improving query performance by 60% through advanced normalization and indexing techniques. The robust schema efficiently organized the dataset and enhanced data retrieval operations.
+            </p>
+            <ul style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                <li>Designed a robust <b>database schema</b> comprising 8 entities to efficiently represent the dataset's structure and relationships,improving data organization by 50%.</li>
+                <li>Applied <b>normalization techniques</b> to transform data into BCNF, ensuring data integrity and reducing redundancy by 70%.</li>
+                <li>Implemented indexing strategies to <b>optimize query performance</b>, enhancing the efficiency of data retrieval operations and facilitating data by 60% and query analysis.</li>
+            </ul>
+        </li>
+
+
+        <li>
+            <h4 style="font-family: 'Georgia', serif;">
+                <a href="">Smart Bus Ticketing System</a>
+            </h4>
+            <p><b><i>React, React Native, Node.js, MongoDB</i></b></p>
+            <p style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                Developed a mobile application to digitize city bus ticketing, allowing passengers to generate QR codes after fare payment for easy validation by conductors. The system streamlined manual ticketing operations for both conductors and passengers.
+            </p>
+            <ul style="font-family: 'Georgia', serif; font-size:14px; color:black;">
+                <li>Developed a full-fledged mobile application for conductors and passengers to manage the manual city bus ticketing system.</li>
+                <li>After fare payment, produce a QR code for chosen origin and destination stops, which the conductor can scan for validation.</li>
+            </ul>
+        </li>
+
+    </ol>
 </section>
