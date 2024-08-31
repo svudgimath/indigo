@@ -20,8 +20,8 @@ resume: true
 resume-external: true
 resume-url: assets/SathwikResume.pdf
 
-domain: https://svudgimath.github.io
-url: https://svudgimath.github.io
+domain: https://svudgimath.github.io/indigo
+url: https://svudgimath.github.io/indigo
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
