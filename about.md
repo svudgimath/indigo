@@ -30,11 +30,10 @@ Postman, Confluence, Jira, ETL, SSL Certificates, Network Load Balancing</li>
 <h2>Education</h2>
 
 <ul>
-	<li><strong>University at Buffalo, The State University of New York, Buffalo NY, United States</strong><br>
-	MS in Data Science<br>
+	<li><strong>University at Buffalo, State University of New York, Buffalo NY, USA</strong><br>
+	Master of Science in Data Science<br>
 	<i>Aug 2023 - Dec 2024</i></li>
-	<li><strong>Dr. Ambedkar Institute of Technology, Bangalore KA, India</strong><br>
+	<li><strong>Dr. Ambedkar Institute of Technology, Bangalore, India</strong><br>
 	Bachelor of Engineering in Computer Science & Engineering<br>
-	CGPA: 8.48/10<br>
 	<i>Aug 2017 - Jul 2021</i></li>
 </ul>
